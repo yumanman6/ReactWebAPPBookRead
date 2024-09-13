@@ -1,0 +1,30 @@
+html,
+body {
+    line-height: 1;
+    font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Arial, Helvetica, sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: calc(100vw / 375 * 37.5);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    vertical-align: top;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 50px;
+    }
+}
+
